@@ -115,3 +115,14 @@ Nope, but JUST a little more
 2. In Termius, press the `Ctrl` button above the keyboard and then type `c`
 3. Type `exit` and enter
 4. Done!
+
+# Summary
+
+1. ssh into ldap from transit
+2. Download tigervnc standalone binary from [here](https://https://bintray.com/tigervnc/stable)
+3. reverse port forward from `ldap:vncport` to `transit:vncport`
+4. Start tigervnc server on `:(vncport-5900)`
+5. Port forward `transit:vncport` to `localhost:vncport`
+6. Connect using vnc viewer to `localhost:vncport`
+
+See [install script](install.sh) for setup and [server startup script](startvnc.sh) for startup
