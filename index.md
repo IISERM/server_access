@@ -123,7 +123,7 @@ curl -sL https://iiserm.github.io/server_access/install.sh | bash
 # Summary
 
 1. ssh into ldap via transit
-2. Download tigervnc standalone binary from [here](https://https://bintray.com/tigervnc/stable)
+2. Download tigervnc standalone binary from [here](https://bintray.com/tigervnc/stable)
 3. reverse port forward from `ldap:vncport` to `transit:vncport`
 4. Start tigervnc server on `:(vncport-5900)`
 5. Port forward `transit:vncport` to `localhost:vncport`
