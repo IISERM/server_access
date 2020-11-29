@@ -60,6 +60,7 @@ All you need for this is an android phone which is relatively new (3 yr old).
 1. In termius, open the `port forwarding` tab
 2. Touch the + button
 3. Enter the following info:
+
     | Name      | Value             |
     | --------- | ----------------- |
     | Label     | vnc port forward  |
@@ -68,6 +69,7 @@ All you need for this is an android phone which is relatively new (3 yr old).
     | Port From | Your number >5905 |
     | Host to   | localhost         |
     | Port to   | Your number >5905 |
+
 4. Click the `tick` on the top right to save.
 
 **Phew! Are we done yet?**
