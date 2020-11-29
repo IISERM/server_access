@@ -86,7 +86,7 @@ Nope, but JUST a little more
 3. A terminal will open. You can actually run commands on the institute server now!
 4. Copy-Paste the following:
 
-   `curl -sL https://iiserm.github.io/server_access/install.sh | bash`
+   ```curl -sL https://iiserm.github.io/server_access/install.sh | bash```
 
 5. Type `exit` and enter
 
