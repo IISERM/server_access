@@ -3,7 +3,7 @@ then
     echo "usage: source startvnc.sh port"
     echo "port must be > 5905"
     echo "example: source startvnc.sh 5959"
-    exit
+    return
 fi
 
 # conda deactivate # <- uncomment this line if you are auto-activating conda
@@ -12,7 +12,7 @@ fi
 echo "tunnel to transit. Enter transit@123 as password"
 ssh -T -N -f -R localhost:$1:localhost:$1 transit@14.139.227.194
 
-echo "Turn on the port forwarding rule from "$1" to 5901 in termius"
+echo "Turn on the port forwarding rule from "$1" to "$1" in termius"
 read -n 1 -s -r -p "Press any key once done"
 echo
 

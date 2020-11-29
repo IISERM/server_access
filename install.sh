@@ -22,8 +22,9 @@ curl -#L https://iiserm.github.io/server_access/startvnc.sh -o ~/startvnc.sh
 echo "Installation done"
 
 echo "Setup vncpasswd"
+echo "Run ~/vncserver/bin/vncpasswd"
 echo "Enter a new passwd for connecting to vnc session."
 echo "You need to enter this password when connecting from VNCViewer later"
 echo "Enter n for view only passwd"
 
-~/vncserver/bin/vncpasswd
+echo "READ ABOVE CAREFULLY"
