@@ -60,16 +60,14 @@ All you need for this is an android phone which is relatively new (3 yr old).
 1. In termius, open the `port forwarding` tab
 2. Touch the + button
 3. Enter the following info:
-
-    | Name      | Value            |
-    | --------- | ---------------- |
-    | Label     | vnc port forward |
-    | Type      | Local Rule       |
-    | Host From | transit          |
-    | Port From | Any number >5905 |
-    | Host to   | localhost        |
-    | Port to   | 5901             |
-    
+    | Name      | Value             |
+    | --------- | ----------------- |
+    | Label     | vnc port forward  |
+    | Type      | Local Rule        |
+    | Host From | transit           |
+    | Port From | Your number >5905 |
+    | Host to   | localhost         |
+    | Port to   | Your number >5905 |
 4. Click the `tick` on the top right to save.
 
 **Phew! Are we done yet?**
@@ -91,7 +89,7 @@ Nope, but JUST a little more
 
 1. Open VNCViewer
 2. Touch the + button
-3. Fill address as `localhost:5901`
+3. Fill address as `localhost:your_number`
 4. Fill Name as `IISER`
 5. Touch create
 
@@ -113,14 +111,14 @@ Nope, but JUST a little more
 
 # Stop access
 
-1. In VNCViewer, press the X button in the center top to close the connection. Press back to exit VNCViewer
-2. In Termius, press the `Ctrl` button above the keyboard and then type `c`
-3. Type `exit` and enter
+1. Click on the start button of the server gui, and go to the power tab
+2. Click logout, and then logout again. In a few seconds, it will "close unexpectedly", this is ok.
+3. In termius, type `exit` and enter
 4. Done!
 
 # Summary
 
-1. ssh into ldap from transit
+1. ssh into ldap via transit
 2. Download tigervnc standalone binary from [here](https://https://bintray.com/tigervnc/stable)
 3. reverse port forward from `ldap:vncport` to `transit:vncport`
 4. Start tigervnc server on `:(vncport-5900)`
