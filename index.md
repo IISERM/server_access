@@ -14,8 +14,10 @@ All you need for this is an android phone which is relatively new (3 yr old).
 
 ## Android setup
 
-1. Install [VNCViewer on Android](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android&hl=en_US&gl=US)
-2. Install [Termius on Android](https://play.google.com/store/apps/details?id=com.server.auditor.ssh.client&hl=en_US&gl=US)
+| App       | Website                                                                                                    |
+| --------- | ---------------------------------------------------------------------------------------------------------- |
+| Termius   | [https://www.termius.com/](https://www.termius.com/android)                                                |
+| VNCViewer | [https://www.realvnc.com/en/connect/download/viewer/](https://www.realvnc.com/en/connect/download/viewer/) |
 
 ## Termius setup
 
@@ -57,9 +59,10 @@ All you need for this is an android phone which is relatively new (3 yr old).
 
 ### Add Port Forward rules
 
-1. In termius, open the `port forwarding` tab
-2. Touch the + button
-3. Enter the following info:
+1. Choose a number > 5900. This will act as an identifier for your connection. Remember it
+2. In termius, open the `port forwarding` tab
+3. Touch the + button
+4. Enter the following info:
 
     | Name      | Value             |
     | --------- | ----------------- |
@@ -69,8 +72,8 @@ All you need for this is an android phone which is relatively new (3 yr old).
     | Port From | Your number >5905 |
     | Host to   | localhost         |
     | Port to   | Your number >5905 |
-
-4. Click the `tick` on the top right to save.
+    
+5. Click the `tick` on the top right to save.
 
 **Phew! Are we done yet?**
 
