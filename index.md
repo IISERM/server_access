@@ -72,7 +72,7 @@ All you need for this is an android phone which is relatively new (3 yr old).
     | Port From | Your number >5905 |
     | Host to   | localhost         |
     | Port to   | Your number >5905 |
-    
+
 5. Click the `tick` on the top right to save.
 
 **Phew! Are we done yet?**
