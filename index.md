@@ -14,10 +14,8 @@ All you need for this is an android phone which is relatively new (3 yr old).
 
 ## Android setup
 
-| App       | Website                                                                                                    |
-| --------- | ---------------------------------------------------------------------------------------------------------- |
-| Termius   | [https://www.termius.com/](https://www.termius.com/android)                                                |
-| VNCViewer | [https://www.realvnc.com/en/connect/download/viewer/](https://www.realvnc.com/en/connect/download/viewer/) |
+1. [Termius - SSH app](https://www.termius.com/android)
+2. [VNCViewer - Remote viewing app](https://www.realvnc.com/en/connect/download/viewer/)
 
 ## Termius setup
 
