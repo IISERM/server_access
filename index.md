@@ -6,13 +6,15 @@ This page runs you through the setup to access the gui for the institute servers
 
 A lot of students do not have laptops and are unable to run some programs and analysis required for some courses, especially computational courses, and lab courses. While this doesn't come close to a laptop experience, its a step closer to closing the digital divide between our peers.
 
+Even those who do have a laptop can be benefitted by using this to download the articles and journals that can be accessed for free from the institute networks. 
+
 All you need for this is an android phone which is relatively new (3 yr old).
 
-**We also request people not to use the gui if you are using the compute servers for heavy computation. Please port forward as necessary. GUI puts quite some strain on the device, which mostly is unnecessary, except if one doesn't have a laptop.**
+**We also request people not to use the gui if you are using the compute servers for heavy computation. Please port forward as necessary. GUI puts quite some strain on the server, which mostly is unnecessary, except if one doesn't have a laptop.** 
 
 # Interesting! Let's go
 
-## Android setup
+## Setting up your device
 
 1. [Termius - SSH app](https://www.termius.com/android)
 2. [VNCViewer - Remote viewing app](https://www.realvnc.com/en/connect/download/viewer/)
